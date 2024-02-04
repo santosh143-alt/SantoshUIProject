@@ -1,0 +1,40 @@
+body{
+  background: url(background.jpg);
+}
+h1 {
+  font-size: 30px;
+  border: 15px red solid;
+  text-align: center;
+}
+.container {
+  font-family: 'Arial';
+  font-weight: bold;
+  border: 5px outset #00A4BD;
+  color: #2D3E50;
+  background-color: #EAF0F6;
+  text-align: left;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: cyan;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+form {
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease-in-out;
+}
+label {
+  font-size: 20px;
+}
